@@ -1,0 +1,22 @@
+
+basic:
+  auth:
+    client:
+      id: appuser
+      pass: apppass
+
+
+security:
+  oauth2:
+    resource:
+      filter-order: 3
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/DEMO_SECURITY_API
+    username: root
+    password: LaiVanDuc1011
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
